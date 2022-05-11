@@ -1,0 +1,3 @@
+add title to facts function 
+add random search to both functions 
+fix fact search 
