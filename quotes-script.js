@@ -45,6 +45,8 @@ function searchQuote(e){
          
       });
       search.value='';
+      singleQuoteEl.innerHTML='';
+    resultHeadingEl.innerHTML = '';
          
     }
 }
@@ -80,6 +82,8 @@ function searchQuote(e){
 function getRandomQuote(){
   singleQuoteEl.innerHTML='';
   resultHeadingEl.innerHTML = '';
+  quotesEl.innerHTML='';
+
 
   fetch('https://animechan.vercel.app/api/random')
   .then( res => res.json())
