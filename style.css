@@ -180,7 +180,7 @@ a{
     .main .container {
         display: inline-block;
         margin: 0;
-        padding: 1rem 1rem;
+       
         vertical-align: middle;
         cursor: pointer;
         
@@ -189,7 +189,7 @@ a{
         padding: 0;
         right: 0px;
         width: 100px;
-       
+       margin: auto;
         background-color: #ff8ab3;
         border-radius:25px;
         text-align:center;
@@ -207,8 +207,8 @@ a{
         
     }
     .main .container {
-        display: inline-block;
-        margin: 0;
+        display: flex;
+        margin: auto;
         padding: 1rem 1rem;
         vertical-align: middle;
         cursor: pointer;
